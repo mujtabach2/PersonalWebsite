@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="=X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mujtaba Chaudhry Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0eb7c5fd31.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id = "header"
+
+    <div class = "container">
+        <nav>
+            <img src="images/Logo.png" alt="Logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text"
+        <p>Full Stack Developer</p>
+        <h1>Hi, I'm <span>Mujtaba</span> <br> 
+            Chaudhry</h1>
+    </div>
+    </div>
+    <img src="images/3d-minimal-programming-icon-coding-screen-web-development-concept-laptop-with-a-coding-screen-and-a-coding-icon-3d-illustration-png.png" alt="Image Description" class="header-image">
+    <!-- --about me-- -->
+    <div id="about">
+        <div class="container">
+            <div class ="row">
+                <div class="about-col-1">
+                    <img src="images/2fbaf8d8-a0ee-4094-9f4e-b3b6fd9c3d08 (1).jpeg" alt="Profile">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hello, I'm Mujtaba Chaudhry!
+                        <br>
+                        <br>
+                        I'm a second-year computer science student at Ontario Tech University, based in Toronto, Canada. Coding isn't just my skill; it's my passion. I find joy in creating solutions that make lives easier and more enjoyable.<br>
+                        <br>I'm passionate about being a Full Stack Engineer and fascinated by the realms of Machine Learning and Artificial Intelligence. Outside of tech, I'm an avid fan of football and MMA. My dream? To be a Software Engineer at Twitter, shaping the digital world one line of code at a time.
+                    </p>
+                        
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Full Stack Development
+                            </span><br> JavaScript, React, HTML/CSS, MongoDB, Node.js, Git, Google Cloud Platform, MySQL</li>
+                            <li><span>Data Analysis</span><br>JavaScript, HTML/CSS, Pandas, Python</li>
+                            <li><span>Machine Learning</span><br>Python, OpenCV</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Tutor</span><br>Offered tailored tutoring in Computer Science, Math, and Science to students up to grade 12.</li>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - Expected 2026</span><br>Ontario Tech University - Computer Science</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- --portfolio-- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/as-efficient-as-youd-want-your-doctor-be-shot-young-doctor-using-laptop-her-desk_590464-15181.avif" alt="Profile">
+                    <div class="layer">
+                        <h2>Doctor Connect</h2>
+                        <br>
+                        <p>Created a dynamic doctor lookup site using MERN stack, incorporating web scraping, MongoDB for data storage, and secure user authentication. Integrated Google Maps API for interactive map visualization.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <a href='#'><i class="fa-brands fa-github"></i></a>
+                    </div>
+            
+                </div>
+                <div class="work">
+                    <img src="images/Max_park.jpg" alt="Profile">
+                    <div class="layer">
+                        <h2>Rubix Cube Solver</h2>
+                        <br>
+                        <p> Developed an efficient Rubiks Cube solver using computer vision and the Kociemba algorithm, enabling real-time cube scanning and precise color detection.</p>
+                        <a href='#'><i class="fa-brands fa-github"></i></a>
+                    </div>
+            
+                </div>
+                <div class="work">
+                    <img src="images/43-lebron-james-andrew-d-bernstein.jpg" alt="Profile">
+                    <div class="layer">
+                        <h2>Nba Lineup Analysis</h2>
+                        <br>
+                        <p> Built an interactive tool with Streamlit and pandas for in-depth NBA lineup analysis, providing insights through histograms and strategic opponent comparison.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <a href='#'><i class="fa-brands fa-github"></i></a>
+                    </div>
+            
+                </div>
+            </div>
+            <a href="https://github.com/mujtabach2" class="btn">See more</a>
+        </div>
+    </div>
+<!-- contact form  -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                 <h1 class="sub-title">Contact Me</h1>
+                 <p><i class="fa-solid fa-paper-plane"></i> mujtabawaqas@gmail.com</p>
+                 <p><i class="fa-solid fa-phone" ></i> 437 450 2773</p>
+                 <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/mujtaba-chaudhry"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/mujtabach2"><i class="fa-brands fa-github"></i></a>
+                 </div>
+                 <a href="" download class="btn btn2">Download Resume</a>
+            </div>
+           
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+    
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closeMenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxwPEQuC7WTiqnQ4TadeGUItzavv2FuEQZrFzhLvkv_D0_O7pZxfVdVlZl9DTL0ldeEFA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+    
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully!"
+            setTimeout(function(){ msg.innerHTML = "" }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
