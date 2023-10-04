@@ -332,10 +332,7 @@ nav .fa-solid{
          height: 100%;
    }
    .header-image{
-         width: 50%;
-         position: absolute;
-         top: 30%;
-         left: 50%;
+        display: none;
     
    }
 
